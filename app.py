@@ -4,8 +4,8 @@ import joblib
 from sklearn.preprocessing import StandardScaler
 
 # Load trained models
-mlp_model = joblib.load("model/mlp_model.pkl")  # Ensure you save your trained model
-scaler = joblib.load("model/scaler.pkl")
+mlp_model = joblib.load("mlp_model.pkl")  # Ensure you save your trained model
+scaler = joblib.load("scaler.pkl")
 
 # Sample dataset (this is just an example, replace it with your actual dataset)
 sample_data = {
