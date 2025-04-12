@@ -5,4 +5,4 @@ seaborn
 scikit-learn
 tensorflow
 logging
-joblib
+joblib>=1.0.0
